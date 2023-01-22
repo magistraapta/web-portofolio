@@ -13,7 +13,7 @@ export default function Profile() {
         </div>
         <div className='w-4/12'>
             <Image
-            src="/Images/Profile-pict.svg"
+            src={"/static/images/Profile-pict.svg"}
             alt='profile image'
             width={172}
             height={172}
