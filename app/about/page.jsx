@@ -3,7 +3,7 @@ import Navbar from '../navbar'
 import  Footer from '../Footer'
 export default function page() {
   return (
-    <div className='mx-80 my-12 max-lg:mx-60 max-md:mx-40 max-sm:mx-10'>
+    <div className='mx-80 my-12 max-lg:mx-40 max-md:mx-20 max-sm:mx-10'>
       <Navbar/>
       <div className='mt-14'>
         <div>
