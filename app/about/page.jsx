@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../navbar'
-
+import  Footer from '../Footer'
 export default function page() {
   return (
     <div className='mx-80 my-12 max-lg:mx-60 max-md:mx-40 max-sm:mx-10'>
@@ -28,6 +28,7 @@ export default function page() {
           </p>
         </div>
       </div>
+      <Footer/>
     </div>
   )
 }
