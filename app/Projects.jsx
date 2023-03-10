@@ -1,7 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
 export default function Projects() {
-    const movieUrl = "https://movie-web-chi.vercel.app/";
   return (
     <div className='mt-20'>
         <h1 className='text-3xl font-bold'>Latest Project</h1>

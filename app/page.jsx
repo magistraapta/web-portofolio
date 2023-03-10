@@ -6,7 +6,7 @@ import Projects from '../app/Projects'
 import Footer from '../app/Footer'
 export default function Page() {
   return (
-    <div className='my-12 mx-80 border border-white'>
+    <div className='my-12 mx-80 '>
         <Navbar />
         <Profile/>
         <Projects/>
