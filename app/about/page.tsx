@@ -3,13 +3,13 @@ import Navbar from '../navbar'
 
 export default function page() {
   return (
-    <div className='xl:mx-80 my-12 lg:mx-60 md:mx-50 sm:mx-30 '>
+    <div className='mx-80 my-12 max-lg:mx-60 max-md:mx-40 max-sm:mx-10'>
       <Navbar/>
       <div className='mt-14'>
         <div>
         <h1 className=' text-5xl font-bold'>About me</h1>
         </div>
-        <div className='mt-4 font-light leading-loose'>
+        <div className='mt-4 font-light leading-loose '>
           <p>Hey, my name is <span className='font-bold'>Muhammad Magistra Apta Paramarta</span> . 
           Most people called me <span className='font-bold'>Agis</span>.
           </p>
