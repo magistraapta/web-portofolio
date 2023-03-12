@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../navbar'
+import Image from 'next/image'
 export default function Projects() {
   return (
     <div className=' mx-80 my-12 max-lg:mx-40 max-md:mx-20 max-sm:mx-10'>
@@ -16,7 +17,32 @@ export default function Projects() {
             </div>
         </div>
         <hr />
-        
+        <div className=' mt-10 sm:flex justify-between'>
+          <div className=" max-sm:w-full w-5/12 bg-white">
+            <Image
+            src={'/static/images/Screen-Shot-2023-03-12-at-12.49.21.webp'}
+            alt="project image"
+            width={500}
+            height={200}
+            />
+            <div className='mt-2 ml-2 w-10/12 mb-2'>
+              <h1 className='font-semibold text-xl text-black'>Movie web list</h1>
+              <p className='text-xs text-black'>This project is about website that can show a movie list using public API from OMDB</p>
+            </div>
+          </div>
+          <div className=" max-sm:w-full bg-white w-5/12">
+          <Image
+            src={'/static/images/Dribbble shot HD - 1.svg'}
+            alt="project image"
+            width={500}
+            height={200}
+            />
+            <div className='mt-2 ml-2 w-10/12 mb-2'>
+              <h1 className='font-semibold text-xl text-black'>User Interface Design</h1>
+              <p className='text-xs text-black'>This is design mockup for application that can make id card throught online application </p>
+            </div>
+          </div>
+        </div>
     </div>
   )
 }
