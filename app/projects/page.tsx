@@ -47,6 +47,23 @@ export default function Projects() {
             </div>
             </a>
           </div>
+          
+        </div>
+        <div className="mt-14">
+          <div className=" max-sm:w-full bg-white w-5/12">
+              <a href="https://dribbble.com/shots/20850573-Desain-Aplikasi-Pendaftaran-KTP-Secara-Online">
+              <Image
+              src={'/static/images/Screen Shot 2023-03-30 at 22.57.58.png'}
+              alt="project image"
+              width={500}
+              height={200}
+              />
+              <div className='mt-4 ml-2 w-10/12 mb-4'>
+                <h1 className='font-semibold text-xl text-black'>To do list website</h1>
+                <p className='text-xs text-black'>This is a website that can help you organize your day using to do list</p>
+              </div>
+              </a>
+            </div>
         </div>
         <Footer/>
     </div>

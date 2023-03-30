@@ -3,7 +3,7 @@ import '../styles/globals.css'
 import Image from 'next/image'
 export default function Profile() {
   return (
-    <div className='mt-20 flex  justify-between'>
+    <div className='mt-10 flex  justify-between'>
         <div className='w-8/12'>
             <div className='text-white'>
                 <h1 className=' text-5xl max-sm:text-3xl font-bold'>Magistra Apta</h1>
